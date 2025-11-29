@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>投递简历</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <nav>
+    <a href="../index.html">首页</a>
+    <a href="submit.html">投递简历</a>
+    <a href="list.html">简历列表</a>
+  </nav>
+  <div class="container">
+    <h2>简历投递表单</h2>
+    <form id="resumeForm">
+      <label>姓名：<input type="text" name="name" required></label>
+      <label>电话：<input type="tel" name="phone" required></label>
+      <label>邮箱：<input type="email" name="email" required></label>
+      <label>求职岗位：<input type="text" name="position" required></label>
+      <label>个人简介：<textarea name="intro" required></textarea></label>
+      <button type="submit">提交简历</button>
+    </form>
+  </div>
+  <script src="../js/script.js"></script>
+</body>
+</html>
